@@ -1,7 +1,7 @@
 from PIL import Image
 import numpy as np
-N=10
-with Image.open("Foto primos - cópia.jpg") as im:
+N=25
+with Image.open("corgi.jpeg") as im:
 
     pixels = [[[0 for k in range(3)] for n in range(N)] for o in range(N)]
     r,g,b=0,0,0
